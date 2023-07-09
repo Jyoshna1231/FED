@@ -1,10 +1,8 @@
-.bannerBgImage {
-    height: 100vh;
-    border-width: 180cm;
-    background-image: url("/bannerImage1.jpg");
-    background-size: cover;
-    position: relative;
+.bannerImg {
+    max-width: 100%;
+    height: auto;
 }
+
 
 .bannertext{
     text-align: center;
