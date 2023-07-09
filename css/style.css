@@ -20,3 +20,17 @@
 .bannerDesc{
     font-size: 2rem;
 }
+@media (max-width: 768px) {
+    /* Adjust the styles for smaller screens */
+    .bannertext {
+        top: 40%;
+    }
+
+    .bannerTitle {
+        font-size: 3rem;
+    }
+
+    .bannerDesc {
+        font-size: 1.5rem;
+    }
+}
