@@ -1,4 +1,20 @@
-
+.center-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bannerImg {
+    max-width: 100%;
+    height: auto;
+}
+.bannertext{
+    text-align: center;
+    position: top;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color:black;
+}
 
 
 .bannerTitle{
