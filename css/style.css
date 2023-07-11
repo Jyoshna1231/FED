@@ -1,32 +1,21 @@
-.bannerBgImage {
-  position: relative;
-}
-
 .bannerImg {
-  display: block;
-  width: 100%;
-  height: auto;
+    max-width: 100%;
+    height: auto;
+}
+.bannerText {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: red;
+            z-index: 1;
 }
 
-.bannertext {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  color: black;
-}
 
-.bannerTitle {
-  font-size: 32px;
-  margin-bottom: 10px;
+.bannerTitle{
+    font-size: 4rem;
 }
-
-p {
-  font-size: 18px;
-  margin-bottom: 0;
-}
-
 
 @media screen and (min-width: 480px) {
    .bannerTitle{
