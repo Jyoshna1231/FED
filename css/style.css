@@ -1,26 +1,32 @@
-.center-image {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.bannerBgImage {
+  position: relative;
 }
+
 .bannerImg {
-    max-width: 100%;
-    height: auto;
-}
-.bannerText {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            text-align: center;
-            color: red;
-            z-index: 1;
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
-
-.bannerTitle{
-    font-size: 4rem;
+.bannertext {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: black;
 }
+
+.bannerTitle {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
 
 @media screen and (min-width: 480px) {
    .bannerTitle{
