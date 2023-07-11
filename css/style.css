@@ -5,7 +5,6 @@
             transform: translate(-50%, -50%);
             text-align: center;
             color:black;
-            z-index: 1;
         }
 
         @media (max-width: 767px) {
@@ -31,12 +30,12 @@
     margin-left: 20px;
 }
 
-.card {
+.card-body {
   cursor: pointer;
   transition: box-shadow 0.3s;
 }
 
-.card:hover {
+.card-body:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
