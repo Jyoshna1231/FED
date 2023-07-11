@@ -1,22 +1,20 @@
+.center-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 .bannerImg {
     max-width: 100%;
     height: auto;
 }
-.bannerText {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            text-align: center;
-            color: red;
-            z-index: 1;
+.bannertext{
+    text-align: center;
+    position: top;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color:black;
 }
-
-
-.bannerTitle{
-    font-size: 4rem;
-}
-
 @media screen and (min-width: 480px) {
    .bannerTitle{
        margin-left:20px;
