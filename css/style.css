@@ -4,7 +4,7 @@
             left: 50%;
             transform: translate(-50%, -50%);
             text-align: center;
-            color: black;
+            color:black;
             z-index: 1;
         }
 
@@ -32,8 +32,14 @@
 }
 
 .card {
-    cursor: pointer;
+  cursor: pointer;
+  transition: box-shadow 0.3s;
 }
+
+.card:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
 
 .bIcon {
     width: 100%;
