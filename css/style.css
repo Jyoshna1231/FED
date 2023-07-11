@@ -1,4 +1,18 @@
+.bannerText {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: red;
+            z-index: 1;
+        }
 
+        @media (max-width: 767px) {
+            .bannerText {
+                font-size: 24px;
+            }
+        }
 .bannerTitle {
     font-size: 4rem;
 }
