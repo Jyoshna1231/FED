@@ -10,6 +10,33 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     
+    <style>
+        .bannerBgImages {
+            position: relative;
+            overflow: hidden;
+        }
+
+        .bannerBgImages img {
+            width: 100%;
+            height: auto;
+        }
+
+        .bannerText {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: red;
+            z-index: 1;
+        }
+
+        @media (max-width: 767px) {
+            .bannerText {
+                font-size: 24px;
+            }
+        }
+    </style>
 </head>
 
 <body>
